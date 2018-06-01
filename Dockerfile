@@ -23,7 +23,6 @@ RUN apk --update add build-base \
             --sysconfdir=/etc \
             --libexecdir=/usr/lib \
             --with-ipsecdir=/usr/lib/strongswan \
-            --enable-aesni \
             --enable-chapoly \
             --enable-cmd \
             --enable-curl \
